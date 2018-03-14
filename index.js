@@ -33,9 +33,7 @@ app.post('/login', function(req, res) {
         }
         if (foundUser)
          res.json({ token: jwt.sign({ username: userInfo.username, fullnameName: userInfo.name, _id: userInfo.id}, JWT_API_SECERET), 
-                    username: userInfo.username, 
-                    name: userInfo.name, 
-                    id: userInfo.id }); // added the jwt token 
+                    userInfo: userInfo });
         else
             res.status(401)
                .send('null');
@@ -104,12 +102,12 @@ app.delete('/user/:id', function (req, res) {
                        .send('null');
                 } else {
                     res.status(200)
-                       .send('User deleted!');
+                       .send(JSON.stringify({success: "User deleted!"}));
                 }
             });
         } else {
             res.status(404)
-               .send("User doesn't exists!");
+               .send(JSON.stringify({success: "User doesn't exists!"}));
         }
     });
 })

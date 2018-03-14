@@ -1,0 +1,60 @@
+{
+    "user1": {
+        "id": 1,
+        "name": "Mohan",
+        "username": "mohan",
+        "password": "mohan@123",
+        "profession": "Senior Developer",
+        "location": "Singapore",
+        "skills": [
+            "HTML5",
+            "CSS3",
+            "JavaScript",
+            "Node JS",
+            "Angular JS"
+        ],
+        "email": "mohan@github.com",
+        "phone": "9952326756",
+        "address": "Pondicherry, India",
+        "website": "github.com",
+        "about": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
+    },
+    "user2": {
+        "id": 2,
+        "name": "Ranjithkumar",
+        "username": "ranjith",
+        "password": "ranjith@123",
+        "profession": "Junior Architect",
+        "location": "Bangalore",
+        "skills": [
+            "HTML5",
+            "CSS3",
+            "docker",
+            "Express JS",
+            "Angular JS"
+        ],
+        "email": "ranjith@github.com",
+        "phone": "9566392626",
+        "address": "Pondicherry, India",
+        "website": "pranjith.github.com",
+        "about": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source."
+    },
+    "user3": {
+        "id": 3,
+        "name": "Arunkumar",
+        "username": "arun",
+        "password": "arun@123",
+        "profession": "Junior Developer",
+        "location": "Chennai",
+        "skills": [
+            "HTML5",
+            "CSS3",
+            "ROR"
+        ],
+        "email": "arunk@github.com",
+        "phone": "9894198941",
+        "address": "Pondicherry, India",
+        "website": "facebook.com",
+        "about": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet."
+    }
+}
