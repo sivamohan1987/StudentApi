@@ -1,0 +1,37 @@
+{
+    "user1": {
+        "name": "Mohan",
+        "username": "mohan",
+        "password": "mohan@123",
+        "profession": "Junior Architect",
+        "id": 1
+    },
+    "user2": {
+        "name": "Ranjithkumar",
+        "username": "ranjith",
+        "password": "ranjith@123",
+        "profession": "Junior Architect",
+        "id": 2
+    },
+    "user12": {
+        "name": "Arunkumar",
+        "username": "arun",
+        "password": "arun@123",
+        "profession": "Junior Developer",
+        "id": 12
+    },
+    "user4": {
+        "name": "Pavithra",
+        "username": "pavithra",
+        "password": "pavithra@123",
+        "profession": "Junior Developer",
+        "id": 4
+    },
+    "user13": {
+        "name": "Saranya",
+        "username": "saranya",
+        "password": "saranya@123",
+        "profession": "Architect",
+        "id": 13
+    }
+}
